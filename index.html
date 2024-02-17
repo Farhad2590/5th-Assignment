@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://kit.fontawesome.com/eae2dd41b9.js" crossorigin="anonymous"></script>
+    <style>
+        .font-inter {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400, 500, 600, 800;
+            font-style: normal;
+            font-variation-settings:
+                "slnt" 0;
+        }
+    </style>
+</head>
+
+<header class="mx-auto w-[90%]">
+    <nav>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-xl">J<span class="text-green-500">-</span>Junctions</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+
+                <a class="btn bg-green-500 bg-opacity-10 border-green-500 border-opacity-40"><i class="fa-solid fa-bus"
+                        style="color: #1DD100;"></i> Bus</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="">
+    <section class="mx-auto w-[90%]">
+        <section class=" bg-[url(./images/banner.png)] bg-cover bg-center bg-no-repeat rounded-2xl">
+            <div class="text-center p-10 pt-28 pb-36 space-y-4">
+                <h1 class="text-4xl text-white font-inter font-bold">Your End-to-End Travel Partner </h1>
+                <h1 class="text-4xl text-green-500 font-inter font-bold">J
+                    Junctions</h1>
+
+                <p class="text-white">Discover seamless travel with J Junctions, your end-to-end partner.Effortlessly
+                    navigate your journeys with our comprehensive services.Let us
+                    handle the details while you focus on enjoying your journey.</p>
+
+                <button class="btn btn-success">Buy Tickets</button>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <div class="text-center mt-20 mb-10">
+                    <h3 class="text-3xl">Best offers for you</h3>
+                </div>
+
+
+                <div class="flex justify-between">
+                    <div class="flex bg-yellow-400 p-6 pr-20 rounded-xl relative">
+                        <div class="relative">
+                            <h3 class="text-3xl">15% Off</h3>
+                            <p class="text">on your next purchase</p>
+                            <p class="text1">use by January 2024</p>
+                        </div>
+                        <div class="absolute left-1/2 transform -translate-x-1/2">
+                            <div class="border border-dashed border-b-2 my-0 pt-20 relative">
+                                <div
+                                    class="rounded-full w-5 h-5 bg-white absolute -bottom-9 left-1/2 transform -translate-x-1/2">
+                                </div>
+                                <div
+                                    class="rounded-full w-5 h-5 bg-white absolute -top-9 left-1/2 transform -translate-x-1/2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative pl-14">
+                            <h3 class="text-3xl">NEW15</h3>
+                            <p>coupon code</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex bg-pink-300 p-6 pr-20 rounded-xl relative">
+                        <div class="relative">
+                            <h3 class="text-3xl">15% Off</h3>
+                            <p class="text">on your next purchase</p>
+                            <p class="text1">use by January 2024</p>
+                        </div>
+                        <div class="absolute left-1/2 transform -translate-x-1/2">
+                            <div class="border border-dashed border-b-2 my-0 pt-20 relative">
+                                <div
+                                    class="rounded-full w-5 h-5 bg-white absolute -bottom-9 left-1/2 transform -translate-x-1/2">
+                                </div>
+                                <div
+                                    class="rounded-full w-5 h-5 bg-white absolute -top-9 left-1/2 transform -translate-x-1/2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative pl-14">
+                            <h3 class="text-3xl">NEW15</h3>
+                            <p>coupon code</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-10 mb-20"><button
+                        class="btn btn-outline btn-success border-[2px] border-green-500 border-opacity-40">Success</button>
+                </div>
+
+            </div>
+        </section>
+    </section>
+    <section class="bg-gray-100 rounded-t-3xl">
+        <section class=" flex flex-col gap-10">
+            <div class="text-center pt-10 space-y-3">
+                <h1 class="text-4xl  font-inter font-bold">J.J Travels</h1>
+                <p class="">Discover seamless travel with J Junctions, your end-to-end partner.Effortlessly
+                    navigate your journeys with our comprehensive services.</p>
+            </div>
+
+            <div class="bg-white mx-auto w-[90%] p-4 mb-10 rounded-lg flex">
+                <div class="">
+                    <div class="flex justify-between">
+                        <div class="flex">
+                            <img src="./images/bus-logo.png" alt="" srcset="">
+                            <div>
+                                <h3 class="text-2xl">J.J Travels</h3>
+                                <p>Coach 09 | Ac-Buissness</p>
+                            </div>
+                        </div>
+                        <div>
+                            <a class="text-green-500 btn bg-green-500 bg-opacity-10 border-green-500 border-opacity-40"><img
+                                    src="./images/seat-green.png" alt="" srcset="">40 Seats left</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-4 rounded-lg mt-4">
+                        <div class="flex justify-between">
+                            <p>Route</p>
+                            <p class="font-bold">Dhaka-Chittagong</p>
+                        </div>
+                        <div class="border-dashed border-[1px] my-4"></div>
+                        <div class="flex justify-between">
+                            <p>Departure Time</p>
+                            <p class="font-bold">11:00 Pm</p>
+                        </div>
+                        <div class="border-dashed border-[1px] my-4"></div>
+                        <div class="flex justify-between">
+                            <button class="btn bg-opacity-80 bg-030712">Boarding Point - Laxmipur</button>
+                            <button class="btn bg-opacity-80 bg-030712">Dropping Point - Bogura</button>
+                            <button class="btn bg-opacity-80 bg-030712">Est. Time - 11 Hour</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-dashed border-[1px] border-green-500 relative ml-20">
+                    <div class="rounded-full w-6 h-6 bg-gray-100 absolute -top-7 -right-3">
+                    </div>
+                    <div class="rounded-full w-6 h-6 bg-gray-100 absolute -bottom-7 -right-3">
+                    </div>
+                </div>
+                <div class="flex flex-col items-center justify-center ml-10">
+                    <img src="./images/fare.png" alt="" srcset="">
+                    <h4 class="text-2xl">550</h4>
+                    <p>Per seat</p>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5 bg-white mx-auto w-[90%] p-4 rounded-lg">
+            <div class="flex gap-5">
+                <div>
+                    <h4 class="text-2xl">Select Your Seat</h4>
+                    <div>
+                        <div class="border-dashed border-[1px] border-gray-100 mt-4 mb-4"></div>
+                        <div class="flex justify-between">
+                            <div class="flex justify-start">
+                                <img src="./images/seat-gray.png" alt="" srcset="">
+                                <p>Available</p>
+                            </div>
+                            <div class="flex justify-end">
+                                <img src="./images/seat-green-filled.png" alt="" srcset="">
+                                <p>Selected</p>
+                            </div>
+                        </div>
+                        <div class="border-dashed border-[1px] border-gray-100 mt-4 mb-4"></div>
+                    </div>
+                    <div class="grid grid-rows-5 gap-4">
+                        <div class="flex gap-5">
+                            <div class="Row  px-8 py-4">A</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A1</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A2</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A3</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A4</div>
+                        </div>
+                        <div class="flex gap-5">
+                            <div class="Row  px-8 py-4">B</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A1</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A2</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A3</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A4</div>
+                        </div>
+                        <div class="flex gap-5">
+                            <div class="Row  px-8 py-4">C</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A1</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A2</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A3</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A4</div>
+                        </div>
+                        <div class="flex gap-5">
+                            <div class="Row  px-8 py-4">D</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A1</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A2</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A3</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A4</div>
+                        </div>
+                        <div class="flex gap-5">
+                            <div class="Row  px-8 py-4">E</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A1</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A2</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A3</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A4</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-dashed border-[1px] border-green-500 "></div>
+                <div>
+                    <h4 class="text-2xl">Select Your Seat</h4>
+                </div>
+            </div>
+        </section>
+    </section>
+</main>
+<footer class="bg-black px-12 py-6 text-white">
+    <div class=" flex justify-between">
+        <div>
+            <h1 class="text-2xl">P-Ticket</h1>
+            <p class="w-72">P-Ticket is a digital platform to make your daily commuting better.</p>
+        </div>
+        <div>
+            <p>Download our app</p>
+            <div class="flex border-[1px] border-white rounded-lg p-2">
+                <img src="./images/playstore.png" alt="" srcset="">
+                <div>
+                    <p>Get it on</p>
+                    <h1 class="xl">Play Store</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border border-dashed border-gray-100  mt-10 mb-10"></div>
+    <div class="flex justify-between">
+        <div>
+            <p>Copyright © 2024 - All right reserved by P-Ticket</p>
+        </div>
+        <div class="flex gap-4">
+            <p>Terms & condition</p>
+            <p>Return & refund policy</p>
+            <p>Privacy policy</p>
+        </div>
+    </div>
+
+
+</footer>
+
+<body>
+
+</body>
+
+</html>
