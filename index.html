@@ -160,7 +160,7 @@
                         </div>
                         <div>
                             <a class="text-green-500 btn bg-green-500 bg-opacity-10 border-green-500 border-opacity-40"><img
-                                    src="./images/seat-green.png" alt="" srcset="">40 Seats left</a>
+                                    src="./images/seat-green.png" alt="" srcset=""><span id="seat-left">40</span> Seats left</a>
                         </div>
                     </div>
                     <div class="bg-gray-100 p-4 rounded-lg mt-4">
@@ -191,6 +191,7 @@
                     <img src="./images/fare.png" alt="" srcset="">
                     <h4 class="text-2xl">550</h4>
                     <p>Per seat</p>
+                    <p>Economy</p>
                 </div>
             </div>
         </section>
@@ -213,46 +214,124 @@
                         <div class="border-dashed border-[1px] border-gray-100 mt-4 mb-4"></div>
                     </div>
                     <div class="grid grid-rows-5 gap-4">
-                        <div class="flex gap-5">
-                            <div class="Row  px-8 py-4">A</div>
+                        <div class="flex gap-5 items-center justify-center">
+                            <div class="Row  px-4 py-4">A</div>
                             <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A1</div>
                             <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A2</div>
                             <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A3</div>
                             <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A4</div>
                         </div>
-                        <div class="flex gap-5">
-                            <div class="Row  px-8 py-4">B</div>
+                        <div class="flex gap-5 items-center justify-center">
+                            <div class="Row  px-4 py-4">B</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A1</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">B2</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">B3</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">B4</div>
+                        </div>
+                        <div class="flex gap-5 items-center justify-center">
+                            <div class="Row  px-4 py-4">C</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">C1</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">C2</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">C3</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">C4</div>
+                        </div>
+                        <div class="flex gap-5 items-center justify-center">
+                            <div class="Row  px-4 py-4">D</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">D1</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">D2</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">D3</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">D4</div>
+                        </div>
+                        <div class="flex gap-5 items-center justify-center">
+                            <div class="Row  px-4 py-4">E</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">E1</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">E2</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">E3</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">E4</div>
+                        </div>
+                        <div class="flex gap-5 items-center justify-center">
+                            <div class="Row  px-4 py-4">A</div>
                             <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A1</div>
                             <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A2</div>
                             <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A3</div>
                             <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A4</div>
                         </div>
-                        <div class="flex gap-5">
-                            <div class="Row  px-8 py-4">C</div>
+                        <div class="flex gap-5 items-center justify-center">
+                            <div class="Row  px-4 py-4">B</div>
                             <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A1</div>
-                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A2</div>
-                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A3</div>
-                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A4</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">B2</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">B3</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">B4</div>
                         </div>
-                        <div class="flex gap-5">
-                            <div class="Row  px-8 py-4">D</div>
-                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A1</div>
-                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A2</div>
-                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A3</div>
-                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A4</div>
+                        <div class="flex gap-5 items-center justify-center">
+                            <div class="Row  px-4 py-4">C</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">C1</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">C2</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">C3</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">C4</div>
                         </div>
-                        <div class="flex gap-5">
-                            <div class="Row  px-8 py-4">E</div>
-                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A1</div>
-                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A2</div>
-                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A3</div>
-                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">A4</div>
+                        <div class="flex gap-5 items-center justify-center">
+                            <div class="Row  px-4 py-4">D</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">D1</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">D2</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">D3</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">D4</div>
+                        </div>
+                        <div class="flex gap-5 items-center justify-center">
+                            <div class="Row  px-4 py-4">E</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">E1</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">E2</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">E3</div>
+                            <div class="seat bg-gray-100 px-8 py-4 rounded-lg">E4</div>
                         </div>
                     </div>
                 </div>
                 <div class="border-dashed border-[1px] border-green-500 "></div>
                 <div>
                     <h4 class="text-2xl">Select Your Seat</h4>
+                    <div class="border-dashed border-[1px] border-gray-100 mt-4 mb-4"></div>
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <div class="flex justify-between">
+                            <h6 class="text-xl">Seat <span id="seat-selected" class="bg-green-500 p-1 rounded-full">0</span>
+                            </h6>
+                            <h6 class="text-xl">Class</h6>
+                            <h6 class="text-xl">Price</h6>
+                        </div>
+                        <div class="border-dashed border-[1px] border-gray-100 mt-4 mb-4"></div>
+                        <div>
+                            <ul id="seat-container">
+
+                            </ul>
+                        </div>
+                        <div class="border border-[1px] border-gray-100 mt-4 mb-4"></div>
+                        <div class=" flex justify-between">
+                            <h6 class="text-xl font-bold">Total Price</h6>
+                            <h6 class="text-xl">Bdt</h6>
+                        </div>
+                        <div class=" flex justify-between">
+                            <h6 class="text-xl font-bold">Grand Total</h6>
+                            <h6 class="text-xl">Bdt</h6>
+                        </div>
+                    </div>
+                    <div class="mt-10">
+                        <form class="space-y-3" action="">
+                            <h3 class="text-xl font-bold">Passenger Name*</h3>
+                            <label class="input input-bordered flex items-center gap-2">
+                                <input type="text" class="grow" placeholder="Search" />
+                            </label>
+                            <h3 class="text-xl font-bold">Phone Number*</h3>
+                            <label class="input input-bordered flex items-center gap-2">
+                                <input type="number" class="grow" placeholder="Phone Number" />
+                            </label>
+                            <h3 class="text-xl font-bold">Email ID</h3>
+                            <label class="input input-bordered flex items-center gap-2">
+                                <input type="email" class="grow" placeholder="Email" />
+                            </label>
+                            <div>
+                                <button class="w-full btn btn-success bg-green-500 text-white">Success</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -289,7 +368,8 @@
 
 
 </footer>
-
+<script src="./js/utiliti.js"></script>
+<script src="./js/script.js"></script>
 <body>
 
 </body>
