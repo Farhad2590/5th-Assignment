@@ -1,9 +1,4 @@
-// function addColor(className) {
-//     const classElements = document.getElementsByClassName(className);
-//     for (const element of classElements) {
-//         element.classList.add('bg-green-500');
-//     }
-// }
+
 function getTextandString(inputId) {
     const string = document.getElementById(inputId);
     const stringText = string.textContent;

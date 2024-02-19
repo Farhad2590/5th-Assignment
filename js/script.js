@@ -93,7 +93,7 @@ document.getElementById('btn-apply').addEventListener('click', function () {
         console.log("Price Will be updated");
         const total = document.getElementById('prices-ticket').innerText;
         const payPrice = parseFloat(total);
-        const discount = percentage(payPrice, 15);
+        const discount = percentage(payPrice, 20);
         const afterDiscount = payPrice - discount;
         const payPlease = document.getElementById('grand-total');
         payPlease.innerText = afterDiscount;
